@@ -1,15 +1,70 @@
 <html>
+
 <head>
     <meta charset="UTF-8">
     <title>Larry Hillyer's Resume</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" 
+        integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="assets\css\style.css">
+    <style>
+
+    </style>
 </head>
+
 <body>
-    
-    <section>
-      <img src = "assets/img/LarryPic.jpg" alt="Profile Picture" height="80px"  />
-      <h1> Larry Hillyer</h1>
-      <p> A little bit about me</p>
-    </section>
-    
+    <resume class="container">
+        <div class="row">
+            <sidebar class="col-sm-4">
+                <div class="panel panel-default panel-css">
+                    <div class="panel-body ">
+                        <section id="about">
+                            <br>
+                            <br>
+                            <div class="row text-center">
+                                <img class="profile-picture" src="assets/img/LarryPic2.jpg" alt="profile picture" height="120">
+                            </div>
+                            <br>
+                            
+                            <h1 class="text-center">Larry Hillyer</h1>
+                            <br>
+                            <p>"Creative innovation requires insights into one's own mind. Learning how to program is an efficient
+                                way to accomplish this insight because one repeatedly tests validity of thier assumptions.
+                                It is the ecomony of the endeavor which encourages one to persist to the point of competancy"</p>
+                            <p>Employment Goal: To become a data analyst and or a software devolper working in technical field.</p>
+                            <p> 20 Years Experience as a plasm etch process engineer, specializing in high aspect ratio contanct
+                                etch. Principal inventor on 4 US Patents, and speaker at 2 international conferences.</p>
+                        </section> 
+                    </div>
+                </div>
+            </sidebar>
+            
+            <main-content class="col-sm-8">
+                <section id="work-history">
+                    <ul>
+                        <li>
+                            <h3></h3>
+                            <h4>Senior Process Engineer</h4>
+                            <p>Designed and analayzed experiments to develop and optimize plasma etch processes down to 35nm.
+                                Tool owner for Applied Materials - IPS Oxide and Lam - Excelan oxide etchers, and process
+                                owner for for various oxide etches. Modified existing equipment to optimize performance.</p>
+                        </li>
+
+                    </ul>
+
+                </section>
+                <section id="education">
+                    <ul>
+                        <li>
+                            <h3>University of New Mexico, 1988</h3>
+                            <h4>BS Chemical Engineering</h4>
+                        </li>
+                        <li>
+                            <h3>Boise State University, 2009-2010</h3></li>
+                        <h4>43 hours Psychology, Biology, Bio-Chemistry</h4>
+                    </ul>
+            </main-content>
+        </div>
+    </resume>
 </body>
-</html>
+    </html>

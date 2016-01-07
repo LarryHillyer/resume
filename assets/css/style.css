@@ -1,0 +1,15 @@
+body {
+    background-color: #3e3e3e;
+    color: #e3e3e3;
+}
+        
+.profile-picture {       
+    border-radius: 50%;
+    border: 1px solid #0e0e0e;
+}
+        
+.panel-css {
+    background-color: #1e2e2e;
+    color: #eee;
+    border-color: #000;
+}
